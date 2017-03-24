@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+               >
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_fl"></FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/main_fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.qingfen.runningman.customview.AutoRadioGroup
+            android:id="@+id/main_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="88px"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingTop="10px">
+
+            <RadioButton
+                android:id="@+id/main_radio_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_main_home"
+                android:gravity="center"
+                android:text="精品优选"
+                android:textColor="@drawable/home_radiobutton_text_selector"
+                android:textSize="20px" />
+
+            <RadioButton
+                android:id="@+id/main_radio_product"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_main_product"
+                android:gravity="center"
+                android:text="产品中心"
+                android:textColor="@drawable/home_radiobutton_text_selector"
+                android:textSize="20px" />
+
+            <RadioButton
+                android:id="@+id/main_radio_me"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_main_mine"
+                android:gravity="center"
+                android:text="我的财富"
+                android:textColor="@drawable/home_radiobutton_text_selector"
+                android:textSize="20px" />
+
+            <RadioButton
+                android:id="@+id/main_radio_more"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_main_more"
+                android:gravity="center"
+                android:text="更多"
+                android:textColor="@drawable/home_radiobutton_text_selector"
+                android:textSize="20px" />
+        </com.qingfen.runningman.customview.AutoRadioGroup>
+
+        <!--  <ImageView
+              android:id="@+id/main_iv_dots"
+              android:layout_gravity="right"
+              android:layout_marginRight="100px"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@mipmap/icon_dots" />-->
+    </FrameLayout>
+</RelativeLayout>

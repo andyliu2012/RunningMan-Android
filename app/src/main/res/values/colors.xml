@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/gray_2e2d33_98</color>
+    <!-- <color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">@color/text_333333</color>
+
+    <color name="gray_2e2d33_98">#fa2e2d33</color>
+    <color name="text_333333">#333333</color>
+    <color name="text_33c9de">#33c9de</color>
+    <color name="gray_d3d3d3">#d3d3d3</color>
+    <color name="text_feaf05">#feaf05</color>
+    <color name="text_1d94e7">#1d9e47</color>
+
+    <color name="text_7a7a7a">#7a7a7a</color>
+    <color name="blue_1556da">#1556da</color>
+    <color name="text_696969">#696969</color>
+    <color name="text_999999">#999999</color>
+    <color name="white">#ffffff</color>
+    <color name="text_f3f3f3">#f3f3f3</color>
+    <color name="text_f8f8f8">#f8f8f8</color>
+    <color name="text_ff3535">#ff3535</color>
+    <color name="text_f34d5c">#f34d5c</color>
+    <color name="text_fc5b72">#fc5b72</color>
+    <color name="text_ffffff">#ffffff</color>
+    <color name="text_fffc00">#fffc00</color>
+    <color name="text_00fe78">#00fe78</color>
+    <color name="text_1ebfe5">#1ebfe5</color>
+    <color name="blue_3dadf4">#3dadf4</color>
+    <color name="text_42c9e9">#42c9e9</color>
+    <color name="red_fa3d5c">#fa3d5c</color>
+    <color name="red_fc5b72">#fc5b72</color>
+    <color name="text_bbbbbb">#bbbbbb</color>
+    <color name="gray_e8e8e8">#e8e8e8</color>
+    <color name="gray_7a7a7a">#7a7a7a</color>
+    <color name="text_f25162">#f25162</color>
+    <color name="gray_eeeeee">#eeeeee</color>
+    <color name="blue_1ebfe5">#1ebfe5</color>
+    <color name="text_2e2d33">#2e2d33</color>
+    <color name="text_f34b5c">#f34b5c</color>
+
+    <drawable name="text_ffffff">#ffffff</drawable>
+    <drawable name="radio_btn_selected">#ff33b5e5</drawable>
+    <drawable name="radio_btn_unselected">#fff</drawable>
+    <!--segmented-->
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#e0e0e0</color>
+    <color name="gray_f1f1f1">#f1f1f1</color>
+
+    <color name="radio_btn_selected">#1ebfe5</color>
+    <color name="radio_btn_unselected">#fff</color>
+    <color name="gray_a3a3a3">#a3a3a3</color>
+    <color name="transparence">#00000000</color>
+    <drawable name="drawable_transparent">@android:color/transparent</drawable>
+
+    <!--登陆注册-->
+    <color name="background">#e8e8e8</color>
+    <color name="textBlack">#333333</color>
+    <color name="lineColor">#dddddd</color>
+    <color name="Imagground">#f3f3f3</color>
+    <color name="textRegister">#7a7a7a</color>
+    <color name="text_3dadf4">#3dadf4</color>
+    <color name="green_1cdfaf">#1cdfaf</color>
+    <color name="orange_feaf05">#feaf05</color>
+    <color name="text_d3d3d3">#d3d3d3</color>
+    <color name="red_fa3d5c_80">#d0fa3d5c</color>
+    <color name="blue_7a7a7a">#7a7a7a</color>
+    <color name="blue_22b7d9">#22b7d9</color>
+    <color name="text_8d8d8d">#8d8d8d</color>
+    <color name="yellow_feb71e">#feb71e</color>
+    <color name="bule_34c5e8">#34c5e8</color>
+    <color name="red_f36271">#f36271</color>
+    <color name="blue_2097f5">#2097f5</color>
+
+
+</resources>
